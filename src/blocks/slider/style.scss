@@ -1,0 +1,26 @@
+/*
+Single slide styles
+Used in editor and frontend
+*/
+
+@import "swiper/css";
+@import "swiper/css/a11y";
+@import "swiper/css/autoplay";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+.sss-slider {
+	--sss-slider-theme-color: #84df6e;
+	--swiper-theme-color: var(--sss-slider-theme-color);
+
+	--swiper-navigation-size: 48px;
+	--swiper-navigation-color: var(--sss-slider-theme-color);
+
+	--swiper-pagination-color: var(--sss-slider-theme-color);
+	--swiper-pagination-bullet-horizontal-gap: 0.25rem;
+	--swiper-pagination-bullet-vertical-gap: 0.25rem;
+	--swiper-pagination-bullet-size: 0.85rem;
+	--swiper-pagination-bullet-opacity: 1;
+	--swiper-pagination-bullet-inactive-color: #000;
+	--swiper-pagination-bullet-inactive-opacity: 0.4;
+}

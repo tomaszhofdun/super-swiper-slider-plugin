@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "sss/slide",
+	"title": "SSS Slide",
+	"category": "widgets",
+	"description": "Single slide used in Super Swiper Slider.",
+	"icon": "slides",
+	"keywords": ["carousel", "slideshow"],
+	"supports": {
+		"className": true,
+		"spacing": {
+			"padding": true,
+			"margin": ["top", "bottom"]
+		}
+	},
+	"textdomain": "sss",
+	"version": "0.0.1",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

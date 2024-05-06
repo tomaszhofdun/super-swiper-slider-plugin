@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "sss/slider",
+	"title": "SSS Slider",
+	"category": "widgets",
+	"description": "Display your images in a horizontal carousel.",
+	"icon": "slides",
+	"keywords": ["carousel", "slideshow"],
+	"attributes": {
+		"slidesPerView": {
+			"type": "number",
+			"default": 3
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoplayDelay": {
+			"type": "number",
+			"default": 2500
+		},
+		"autoplayDisableOnInteraction": {
+			"type": "boolean",
+			"default": true
+		},
+		"navigation": {
+			"type": "boolean",
+			"default": true
+		},
+		"pagination": {
+			"type": "boolean",
+			"default": true
+		},
+		"loop": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"className": true,
+		"color": {
+			"background": true,
+			"gradients": true,
+			"link": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": ["top", "bottom"]
+		}
+	},
+	"textdomain": "sss",
+	"version": "0.0.1",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
